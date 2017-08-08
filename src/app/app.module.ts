@@ -7,6 +7,8 @@ import { DashboardComponent }   from './dashboard.component';
 import { HeroDetailComponent }  from './hero-detail.component';
 import { HeroesComponent }      from './heroes.component';
 import { HeroService }          from './hero.service';
+import { MyTestingComponent }   from './my.testing.component';
+import { ResultComponent }  from './grid.search.result.component';
 
 import { AppRoutingModule }     from './app-routing.module';
 
@@ -20,7 +22,9 @@ import { AppRoutingModule }     from './app-routing.module';
     AppComponent,
     DashboardComponent,
     HeroDetailComponent,
-    HeroesComponent
+    HeroesComponent,
+    MyTestingComponent,
+    ResultComponent
   ],
   providers: [ HeroService ],
   bootstrap: [ AppComponent ]

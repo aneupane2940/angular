@@ -1,0 +1,21 @@
+<div id="firstblock">
+	<div id="textsearch">
+		<label>name: </label> <input id="hellogrid" />
+	</div>
+	<div>
+		<button (click)="gotoDetail()">Search</button>
+	</div>
+</div>
+
+<div id="secondblock">
+	<label>All result</label>
+
+
+
+	<ul>
+		 <li *ngFor="let hero of heroes">
+			<div>{{hero.id}}  </div>
+			<div>{{hero.name}}</div>
+		</li>
+	</ul>
+</div>

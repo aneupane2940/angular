@@ -1,0 +1,33 @@
+#firstblock {
+    height: 250px;
+    width: 900px;
+    background-color: powderblue;
+}
+#secondblock {
+    height: 250px;
+    width: 900px;
+}
+#textsearch {
+    padding-top: 30px;
+    padding-right: 1000px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    height: 100px;
+    width: 200px;
+}
+.heroes {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+.heroes li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+}
